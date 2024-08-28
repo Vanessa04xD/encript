@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="up">
+        <div class="encriptar">
+           
+            <textarea placeholder="Ingrese el texto aqui" id="text1"></textarea>
+
+            <div class="botones">
+                <button id="btnenc" value="Encriptar" onclick="encript()" >Encriptar</button>
+                <input type="button" id="btndes" value="Desencriptar" onclick="uncript()">
+            </div>
+        </div>
+    
+        <div class="desencriptar">
+            <div class="card" >
+                <div  id="desaparecer">
+                    <img src="img/image.png" class="imagen">
+                    <h3 >Ningún mensaje fue encontrado</h3>
+                    <h4>Ingresa el texto que desees encriptar o desencriptar</h4>
+                    
+                </div>
+                <h3 class="mostrar" hidden ></h3>
+               
+
+               
+            </div>
+          
+        </div>
+        
+    </div>
+   
+  
+    
+    
+    <script src="encriptar.js"></script>
+</html>
