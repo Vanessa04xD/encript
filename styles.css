@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+}
+
+.up
+{
+    display: flex;
+    margin:60px 10% 0 10%;
+    gap:5%;
+    
+}
+       /*desencriptador*/
+.card
+{ 
+    background-color: #ffffff;
+    border-radius: 20px; /* Bordes redondeados */
+
+    width:400px;
+    height:650px;
+    
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    margin-bottom:0px;
+
+    overflow-wrap: break-word;
+
+
+    
+
+
+}
+
+#desaparecer
+{
+    background-color: white;
+}
+
+.card img{
+    max-width: 100%; /* Imagen responsiva */
+    border-radius: 20px 20px 0 0; /* Bordes redondeados arriba */
+    background-color: white;
+    margin-bottom: 10%;
+
+
+    
+}
+
+.card h3{
+
+    background-color: white;
+    padding:10% 5% 10%;
+}
+
+.card h4
+{
+    background-color: white;
+    font-weight: 300;
+    padding:0 10% 5% 10%;
+}
+
+/*encriptador*/
+.encriptar{
+    margin-left:10%;
+    margin-top:10%;
+}
+
+.encriptar textarea
+{
+    border:none;
+    width:550px;
+    height:430px;
+    resize:none;
+
+    opacity: 1;
+    font-weight: 400;
+    color: #0A3871;
+    font-size: 24px;
+    font-family: "Inter";
+   
+    line-height: 1.5; /* Ajusta la altura de la línea */
+    padding-left: 0%;
+
+}
+.encriptar textarea::placeholder
+{
+   
+    opacity: 1;
+    font-weight: 400;
+    color: #0A3871;
+    font-size: 24px;
+    font-family: "Inter";
+   
+
+}
+
+/*botones*/
+.botones
+{
+    display:flex;
+    gap:24px;
+
+    height:67px;
+    
+
+    margin-top: 0px;
+    padding-top:0px;
+
+   
+
+}
+
+#btndes, #btnenc
+{
+   width:300px; 
+   font-family: "Inter";
+   border-radius: 24px;
+   border:2px solid #0A3871;
+}
+
+#btnenc
+{
+    background-color:#0A3871 ;
+    color:white;
+    
+}
+
+
+#btndes
+{
+    background-color:#D8DFE8 ;
+    color:#0A3871;
+   
+}
+
+
+
+.mostrar
+{
+    color:#0A3871;
+}
+
+
+
+
+@media (max-width:600px) {
+    *{
+        background-color: blue;
+    }
+}
